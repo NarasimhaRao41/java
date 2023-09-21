@@ -1,8 +1,6 @@
 import java.util.Scanner;
-public class ATM_Transaction
-{
-    public static void main(String args[] )
-    { 
+public class ATM_Transaction{
+    public static void main(String[] args){
         int balance = 5000, withdraw, deposit;
         Scanner s = new Scanner(System.in);
         while(true)
