@@ -1,0 +1,30 @@
+import java.util.*;
+import java.lang.*;
+
+public class Main {
+
+  public static void main(String[] args) {
+
+    int low ;
+    int high;
+    int i,j;
+    System.out.println("Enter low value and High value : ");
+    Scanner sc = new Scanner(System.in);
+     low = sc.nextInt();
+     high = sc.nextInt();
+    for(i=low;i<+high;i++)
+    {
+    boolean flag = false;
+    for ( j = 2; j <= i/ 2; j++) {
+      // condition for nonprime number
+      if (i % j == 0) {
+        flag = true;
+        break;
+      }
+    }
+    
+    if (!flag)
+      System.out.println(i + " is a prime number.");
+    }
+  }
+}
