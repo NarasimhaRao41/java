@@ -1,3 +1,6 @@
+// java program to implement ATM transactions
+//19/09/2023
+//AtmTransaction.java
 import java.util.Scanner;
 public class ATM_Transaction{
     public static void main(String[] args){
