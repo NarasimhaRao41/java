@@ -1,6 +1,6 @@
 // Java program to demonstrate usage of super keyword  with constructors
 //05/10/2023
-//superConstructorDemo.java
+//SuperConstructorDemo.java
 
 import java.io.*;
 class Animal{
